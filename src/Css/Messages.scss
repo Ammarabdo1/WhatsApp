@@ -1,0 +1,53 @@
+
+.message{
+    margin: 10px;
+    width: fit-content;
+    h3{
+        color:chocolate;
+        font-size: 20px;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .message_guest{        
+    background-color: #353535;
+        border-radius: 10px;
+        transition: all .3s ease;
+    }
+    .message_guest:hover{        
+        background-color: #3a3939;
+        border-radius: 15px;
+
+    }
+}
+
+.message_user{
+    margin-left: auto;
+    width: fit-content;
+    text-align: left;
+    .message_users{
+        background-color: #005D4B;
+        border-radius: 10px;
+        transition: all .3s ease;
+    }
+    .message_users:hover{
+        background-color: #016450;
+        border-radius: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+    .message{
+        margin: 10px;
+        width: fit-content;
+        h3{
+            color:chocolate;
+            font-size: 10px;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+}

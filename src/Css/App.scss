@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    background: url('../Images/BGW.jpg') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.App{
+    margin-top: 10vh;
+    img{
+        text-align: center;
+    }
+    h1{
+        text-align:center;
+        color: rgb(0, 183, 255);
+        font-size: 2rem;
+    }
+    
+    h2{
+        color: rgb(255, 211, 211);
+        text-align:center;
+        line-height: 50px;
+    }
+
+    .app_form{
+        padding:20px;
+        margin:20px;
+        position:fixed;
+        bottom: 0;
+        z-index:1;
+        background-color: #2C2C2C;
+        width: 100%;
+        .app_formControl{
+            display: flex ;
+            flex-direction: row;
+
+            .input{
+                color: white;
+                flex: 1;
+            }
+            .Icon{
+                color: white;
+                flex: 1;
+            }
+            .dIcon{
+                flex: 0;
+            }
+
+        }
+
+
+    }
+
+
+}
+
+.AllMessages{
+    padding-bottom: 15vh;
+}
+
+@media only screen and (max-width: 600px){
+    .App{
+        margin-top: 5vh;
+        img{
+            width:100px;
+        }
+        h1{
+            font-size: 1.7rem;
+        }
+        
+        h2{
+            font-size: 1.2rem;
+        }
+    
+        .app_form{
+            padding:15px;
+            margin:10px;
+        }
+    
+    
+    }
+}
